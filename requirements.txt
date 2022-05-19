@@ -1,0 +1,2 @@
+revolt @ git+https://github.com/revoltchat/revolt.py
+python-dotenv
