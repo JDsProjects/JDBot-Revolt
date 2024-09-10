@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "jdbot-revolt"
+version = "0.1.0"
+description = "A version of JDBot but in revolt"
+authors = ["JDBot <jdjgbot@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10"
+python-dotenv = "^1.0.1"
+revolt-py = {git = "https://github.com/revoltchat/revolt.py"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
